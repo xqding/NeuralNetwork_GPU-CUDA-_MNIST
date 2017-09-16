@@ -1,0 +1,7 @@
+.git/*
+./test/data*
+./test/main
+./*/.o
+./*/*~
+./*~
+.gitignore~
