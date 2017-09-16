@@ -1,7 +1,6 @@
 .git/*
-./test/data*
-./test/main
-./*/.o
-./*/*~
-./*~
-.gitignore~
+test/*
+test/main
+*/.o
+*/*~
+*~
