@@ -1,6 +1,7 @@
 .git/*
 test/data/*
 test/main
+build/*
 */.o
 */*~
 *~
