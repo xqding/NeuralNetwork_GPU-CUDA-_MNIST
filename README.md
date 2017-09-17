@@ -15,4 +15,4 @@ After cloning the repository, change the directory to **NeuralNetwork\_GPU\_MNIS
 
 ## Training and Testing the Neural Network Model
 ### Download the MNIST dataset
-The MNIST dataset is a collection of 28 X 28 images of handwritten digits. The data set is hosted [here] (http://yann.lecun.com/exdb/mnist/).
+The MNIST dataset is a collection of 28 X 28 images of handwritten digits. The data set is hosted [here](http://yann.lecun.com/exdb/mnist/).
