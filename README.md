@@ -16,8 +16,6 @@ After cloning the repository, change the directory to **NeuralNetwork\_GPU\_MNIS
 
 
 
-
-
 <!-- 1. load the following module before make -->
 <!-- cuda/7.0 -->
 <!-- gcc/4.8.4 -->
