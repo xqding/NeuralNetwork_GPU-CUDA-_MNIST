@@ -36,3 +36,34 @@ After cloning the repository, change the directory to **NeuralNetwork\_GPU\_MNIS
    cd ./test/
    ./main
    ```
+   The output should look like this:
+   ```
+   ////////////////////////////////////////////////////////////
+   Configuration of the nerual network:
+   Num of layers: 3
+   Num of neurons in each layer:
+     size of input layer: 784
+     size of hidden layer 1: 30
+     size of softmax layer: 10
+   Parameter for of optimization:
+     num of steps: 1000
+     step size:2
+
+    //////////////////////////////////////////////////////////// 
+    Reading data and make Neural Netowrk objects for training and validation
+    
+    ////////////////////////////////////////////////////////////
+    Starint training ......
+    Step:    0, Cost: 3.980, training accuracy: 0.073, validation accuracy: 0.152
+    Step:    1, Cost: 3.613, training accuracy: 0.150, validation accuracy: 0.140
+    Step:    2, Cost: 3.417, training accuracy: 0.141, validation accuracy: 0.207
+    ...
+    Step:  997, Cost: 0.212, training accuracy: 0.938, validation accuracy: 0.928
+    Step:  998, Cost: 0.206, training accuracy: 0.939, validation accuracy: 0.928
+    Step:  999, Cost: 0.215, training accuracy: 0.937, validation accuracy: 0.928
+    
+    ////////////////////////////////////////////////////////////
+    Evalution the model on testing data:
+    Reading data and make Neural Netowrk objects for testing
+    Cost: 0.234, test accuracy: 0.931
+    ```
