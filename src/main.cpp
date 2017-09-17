@@ -19,7 +19,7 @@ int main(int argc, char** argv){
   //  specify the num of hidden layers and the num of neurons in each hidden layer // 
   ///////////////////////////////////////////////////////////////////////////////////
   // 
-  num_nodes.push_back(40); 
+  num_nodes.push_back(30); 
   // If you want to add another hidder layer with 30 neurons, you can
   // uncomment the following line. You can add as many hidden layers
   // as you want.
@@ -31,8 +31,8 @@ int main(int argc, char** argv){
   /////////////////////////////
   //  Optimization parameter // 
   /////////////////////////////
-  int num_steps = 100; // num of gradien descent steps
-  float epsilon = 1.0; // step size
+  int num_steps = 1000; // num of gradien descent steps
+  float epsilon = 2.0; // step size
 
 
   //// print configuration of the network
